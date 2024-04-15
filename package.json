@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "node",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2-dev server.js",
+    "pm": "nodemon server.js"
+  },
+  "keywords": [
+    "code"
+  ],
+  "author": "aksahy",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^4.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.3",
+    "mongoose-type-email": "^1.1.2",
+    "nodemon": "^3.1.0",
+    "validator": "^13.11.0"
+  }
+}
